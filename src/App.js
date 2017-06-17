@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
-// import './App.css';
-import './drawing.css';
 
-import util from 'util';
+import './drawing.css';
 
 //
 // Root component
