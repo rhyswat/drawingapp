@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 //
 // Drawings
 // --------------------------------------------------------------------
 
 class Drawing extends React.Component {
-
-  constructor(props) {
-    super(props);
-  };
 
   render() {
     var assetItems = this.props.assets.map((a) => {

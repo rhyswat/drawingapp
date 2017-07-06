@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Drawing from './Drawing';
 import NewDrawingForm from './NewDrawingForm';
@@ -103,11 +103,11 @@ class DrawingApp extends React.Component {
           <h3>Drawings</h3>
           <NewDrawingForm newDrawing={this.newDrawing} />
         </div>
-        <div>
-          {element}
-        </div>
         <div className="previous-next">
           <PreviousNextButtons previousDrawing={this.previousDrawing} nextDrawing={this.nextDrawing} />
+        </div>
+        <div>
+          {element}
         </div>
       </div>
     );
